@@ -1,6 +1,10 @@
 /node_modules
 /public/hot
 /public/storage
+/public/album
+/public/gallery
+/public/images
+/public/partners
 /storage/*.key
 /vendor
 .env

@@ -1,0 +1,168 @@
+html, body{
+	display: block;
+	height: 100%;
+	font-size: 14px;
+	min-width: 1024px;
+}
+aside{
+	right:0;
+	display: table;
+	position: fixed;
+	height: 100%;
+}
+.logo, .img-logo-white {
+	display: none;
+}
+.logo a {
+	display: block;
+}
+#home .logo {
+	position: relative;
+	display: block;
+	height: 100px;
+	padding: 10px;
+}
+#home .img-logo {
+	height: 80px;
+	margin: 0px auto;
+	display: block;
+}
+.side-nav{
+	width: 250px;
+}
+.side-nav ul li a{
+	width: 250px;
+}
+.side-nav .menu-button,
+.side-nav .menu-close {
+	display: none;
+}
+section, footer{
+	display: block;
+	float: left;
+	width: calc(100% - 250px);
+	max-width: calc(100% - 250px);
+}
+section::after, footer::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#home .section {
+	padding:0;
+}
+#home .facebook-news,
+.section{
+	display: block;
+	position: relative;
+	padding: 40px 20px 40px 40px;
+}
+p {
+	text-align: justify;
+}
+.landingFlash .table-cell {
+	padding: 20px 40px;
+}
+.landingFlash .flash-2 img {
+	height: 120px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+/*===================================================
+Home section 
+===================================================*/
+
+.partners-title{
+	font-weight: 500;
+	color: #fff;
+	padding: 5px 5px;
+	background: #000;
+}
+.partners-img{
+	width: calc(100% / 3);
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-height: 250px;
+	padding: 0px 10px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #2F2F35;
+}
+
+
+.partners a{
+	display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200px;
+    height: inherit;
+    min-height: inherit;
+}
+
+/*===================================================
+Venue section 
+===================================================*/
+
+.venue {
+	font-weight: 300;
+}
+.venue h4,
+.venue h5 {
+	margin-top: 0;
+}
+h5.lable {
+	margin-bottom: 5px;
+}
+.venue .font-500 {
+	font-weight: 500;
+	font-size: 16px;
+}
+/*.venue p {
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}*/
+
+.sponsor-list h4 {
+	margin-top: 20px;
+}
+.sponsor-list a {
+	display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px;
+    height: inherit;
+    min-height: inherit;
+}
+.sponsor-list .partners-img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top:5px;
+	max-width: 180px;
+	width: calc(100% / 2);
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-height: 90px;
+	padding: 0px 10px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #2F2F35;
+}
+ .sponsor-list  .partners-etax a,
+ .sponsor-list  .partners-getasean a {
+	background-position-y:-20px;
+}
+.header {
+	height: 300px;
+}
+
+
+/*===================================================
+contact section 
+===================================================*/
+

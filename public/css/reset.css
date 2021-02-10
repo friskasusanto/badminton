@@ -1,0 +1,122 @@
+*,
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+	color: #333;
+	font-weight: 400;
+	font-family: roboto,sans-serif;
+	line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin-top:0px;
+	font-weight: 500;
+}
+h1 {
+	font-size: 3rem
+}
+h2 {
+	font-size: 2.5rem
+}
+h3 {
+	font-size: 2rem
+}
+h4 {
+	font-size: 1.5rem
+}
+h5 {
+	font-size: 1.15rem
+}
+h6 {
+	font-size: 1rem
+}
+a, a:hover, a:active, a:focus{
+	text-decoration: none;
+}
+*:focus{
+	outline: 0;
+}
+*::-moz-focus-inner { 
+  border: 0; 
+}
+.reset-pm{
+	padding: 0;
+	margin:0;
+}
+.hide-me{
+	display: none !important;
+}
+.fixed{
+	position: fixed !important;
+}
+.absolute{
+	position: absolute !important;
+}
+.relative{
+	position: relative !important;
+}
+.block{
+	display: block !important;
+}
+.inline{
+	display: inline !important;
+}
+.inline-block{
+	display: inline-block !important;
+}
+.table{
+	display: table !important;
+}
+.table-cell{
+	display: table-cell !important;
+}
+.vertical-middle{
+	vertical-align: middle !important;
+}
+.vertical-top{
+	vertical-align: top !important;
+}
+.vertical-bottom{
+	vertical-align: bottom !important;
+}
+.center{
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+.float-none{
+	float: none !important;
+}
+.cboth{
+	clear: both;
+}
+.cright{
+	clear: right;
+}
+.cleft{
+	clear: left;
+}
+.padding-0{
+	padding:0px;
+}
+.margin-0{
+	margin:0;
+}
+.transparent{
+	background-color: transparent;
+}
+landscape {
+	display: none;
+}
+red {
+	color: red;
+}
+.text-left {
+	text-align: left !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.text-right {
+	text-align: right !important;
+}

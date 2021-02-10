@@ -1,0 +1,197 @@
+html, body{
+	display: block;
+	height: 100%;
+	font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 600;
+}
+.logo {
+	position: fixed;
+	height: 60px;
+	padding: 3px;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+.img-logo {
+	display: none;
+}
+.img-logo-white {
+	display: block;
+	height: 50px;
+}
+.side-nav{
+	float: left;
+	width: 100%;
+}
+.side-nav .menu-button,
+.side-nav .menu-close {
+	width: 100%;
+	background-color: green;
+}
+.side-nav ul {
+	width: 100%;
+	display: none;
+	padding-bottom: 50%;
+}
+.side-nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: inherit;
+	padding: 15px 15px;
+	font-size: 18px;
+	float: left;
+	text-align: center;
+}
+section, footer{
+	display: block;
+	float: left;
+	width: 100%;
+	max-width: 100%;
+	margin-top: 55px;
+}
+section::after, footer::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.section{
+	display: block;
+	position: relative;
+	padding: 40px 20px 20px 20px;
+}
+#home .section {
+	padding:0;
+}
+#home .facebook-news,
+#venue .section{
+	display: block;
+	position: relative;
+	padding: 80px 20px 20px 20px;
+}
+#venue .schedule {
+	padding-top: 20px;
+}
+.header {
+	height: 250px;
+}
+.title-header div {
+	font-size: 2rem;
+}
+p {
+	text-align: left;
+}
+.landingFlash .table-cell {
+	padding: 20px 20px;
+}
+.landingFlash .flash-button {
+	margin-top: 10px;
+}
+.landingFlash .flash-2 img {
+	height: 80px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+}
+
+/*===================================================
+Home section 
+===================================================*/
+
+.partners-title{
+	font-weight: 500;
+	color: #fff;
+	padding: 5px 5px;
+	background: #000;
+}
+.partners-img{
+	width: calc(100% / 2);
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-height: 250px;
+	padding: 0px 10px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #2F2F35;
+}
+
+
+
+.partners a {
+	display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200px;
+    height: inherit;
+    min-height: inherit;
+}
+
+/*===================================================
+Venue section 
+===================================================*/
+
+.venue {
+	font-weight: 300;
+}
+.venue h4, .venue h5 {
+	margin-top: 0;
+}
+.venue h5:nth-of-type(n+2) {
+	margin-bottom: 0px;
+}
+/*
+.venue p {
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 400;
+}*/
+.venue img {
+	width: 280px;
+}
+.sponsor-list h4 {
+	margin-top: 20px;
+}
+.sponsor-list a {
+	display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px;
+    height: inherit;
+    min-height: inherit;
+}
+.sponsor-list .partners-img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top:5px;
+	max-width: 180px;
+	width: calc(100% / 2);
+	display: inline-block;
+	position: relative;
+	float: left;
+	min-height: 90px;
+	padding: 0px 10px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #2F2F35;
+}
+ .sponsor-list  .partners-etax a,
+ .sponsor-list  .partners-getasean a {
+	background-position-y:-20px;
+}
+
+/*===================================================
+contact section 
+===================================================*/
+footer{
+	position: relative;
+	background-color: #000;
+	color: #fff;
+	box-shadow: none;
+	z-index: 1;
+	margin-top: 0px !important;
+	padding: 50px 20px 10px 20px;
+}

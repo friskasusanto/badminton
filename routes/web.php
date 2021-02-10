@@ -14,5 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+//FRONTEND
+	//Frontend/GeneralController
+	Route::get('/about', 'Frontend\GeneralController@about')->name('about');
+	Route::get('/contact', 'Frontend\GeneralController@contact')->name('contact');
+	Route::get('/home', 'Frontend\GeneralController@home')->name('home');
+	Route::get('/membership', 'Frontend\GeneralController@membership')->name('membership');
+	Route::get('/partner', 'Frontend\GeneralController@partner')->name('partner');
+	Route::get('/training', 'Frontend\GeneralController@training')->name('training');
+	Route::get('/turnament', 'Frontend\GeneralController@turnament')->name('turnament');
+	Route::get('/venue', 'Frontend\GeneralController@venue')->name('venue');

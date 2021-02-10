@@ -1,0 +1,13 @@
+.partners-img {
+	min-height: 100px;
+}
+.partners a {
+	background-size: 100px;
+}
+.partners-etax a,
+.partners-getasean a {
+	background-position-y:-20px;
+}
+.header {
+	height: 200px;
+}
