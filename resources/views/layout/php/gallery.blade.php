@@ -30,7 +30,7 @@ foreach ($isFolder as $id => $folderName) {
 
 	<div class="gallery-content">
 
-	<a href="../php/gallery-mode.php?img=$id" class="open-right-window">
+	<a href="../layout/php/gallery-mode.php?img=$id" class="open-right-window">
 
 		<div class="gallery-image">
 

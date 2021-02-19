@@ -31,15 +31,7 @@
 	  <div class="section about">
 	    <div class="row">
 	      <div class="col-sm-9">
-	        <h4><strong>The Team</strong></h4>
-	        <p><strong>CPLUSco Badminton Inc</strong>&nbsp;is a premier social badminton club for motivated Professionals, 
-	        Business persons and Students across different fields. 
-	        As a progressive club, we strive to become sporting and networking environment which create stimulating, 
-	        enriching atmosphere for badminton players from various backgrounds and skill levels.
-	        </p>
-	        <p>
-	        In CPLUSco Badminton we promote and facilitate participation in badminton at all levels.
-	        </p>
+	        {!!$about->text!!}
 	      </div>
 	    </div>
 	  </div>
@@ -58,7 +50,21 @@
 	          <span class="glyphicon glyphicon-chevron-right"></span>
 	        </div>
 	        <div class="autoplay">
-	          @include('layout.php.gallery')
+	        @foreach($galery as $g)
+	          	<div class="gallery-boxes">
+					<div class="gallery-content">
+						<a href="{{url('/try', $g->id)}}" class="open-right-window" target="blank">
+							<div class="gallery-image">
+								<img src="{{url('gallery/'.$g->img)}}" class="center img-responsive"/>	
+							</div>
+
+							<div class="gallery-caption">
+								<p style="color: #fff">{{$g->name}}</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			@endforeach
 	        </div>
 	      </div>
 	    </div>

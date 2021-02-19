@@ -31,29 +31,7 @@
   <div class="section">
       <div class="contact">
         <div class="contact-boxes">
-          <h4><strong>Brisbane, AU</strong></h4>
-          <p class="contact-words">For sponsorship, advertising and general enquiries. Contact our office:</p>
-          <address>
-            <p>
-              <span class="contact-office">CPLUSco - Badminton Division</span><br>
-              CPLUSco Pty Ltd.,<br>
-              Riparian Plaza - Level 36 <br> 
-              71 Eagle St.<br>     
-              Brisbane QLD 4000<br>   
-              AUSTRALIA 
-            </p>
-            <p>
-              P : <a href="tel:+61731213265">+61 7 3121 3265</a><br>
-              F : <a href="tel:+61731213030">+61 7 3121 3030</a><br>        
-              E : <a href="mailto:badminton@cplusco.com" target="_blank">badminton@cplusco.com</a>
-            </p>
-            <p>
-              Facebook : <a href="https://www.facebook.com/badminton.cplusco/" target="_blank">CPLUSco Badminton Brisbane</a>
-            </p>
-          </address>
-          <address>
-            <p>Direct enquiries:<br>Rynaldo Wahyudi,<br>M : <a href="tel:+61413226610">+61 413 226 610</a></p>
-          </address>
+          {!!$contact->text!!}
         </div>
       </div>
   </div>
