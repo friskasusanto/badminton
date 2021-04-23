@@ -50,7 +50,7 @@
       <tr>
         <td>Saturday</td>
         <td><a href="#tafe" class="block">1:30pm - 4:30pm</a></td>
-        <td><a href="http://badminton.com.au/en/training.php" class="block">12:00pm - 1:00pm</a>(Beginner/Intermediate Class)</td>
+        <td><!-- <a href="http://badminton.com.au/en/training.php" class="block">12:00pm - 1:00pm</a>(Beginner/Intermediate Class) --></td>
       </tr>
     </tbody>
   </table>
